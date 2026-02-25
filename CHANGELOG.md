@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2026-02-25)
+
+
+### Features
+
+* initial release of @keyenv/netlify-plugin v1.0.0 ([950dacd](https://github.com/keyenv/netlify-plugin/commit/950dacd7a2fbd239176cbf942b2e6462b39421ce))
+
 ## [1.0.0] - Initial release
 
 ### Features

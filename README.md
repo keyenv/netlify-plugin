@@ -1,4 +1,4 @@
-# keyenv-netlify-plugin
+# @keyenv/netlify-plugin
 
 Netlify Build Plugin that automatically injects KeyEnv secrets into your builds.
 
@@ -12,14 +12,14 @@ Netlify Build Plugin that automatically injects KeyEnv secrets into your builds.
 ## Installation
 
 ```bash
-npm install keyenv-netlify-plugin --save-dev
+npm install @keyenv/netlify-plugin --save-dev
 ```
 
 Add the plugin to your `netlify.toml`:
 
 ```toml
 [[plugins]]
-  package = "keyenv-netlify-plugin"
+  package = "@keyenv/netlify-plugin"
 ```
 
 Then set `KEYENV_TOKEN` in **Site settings → Environment variables**.
@@ -48,14 +48,14 @@ Then set `KEYENV_TOKEN` in **Site settings → Environment variables**.
 
 ```toml
 [[plugins]]
-  package = "keyenv-netlify-plugin"
+  package = "@keyenv/netlify-plugin"
 ```
 
 ### With explicit environment
 
 ```toml
 [[plugins]]
-  package = "keyenv-netlify-plugin"
+  package = "@keyenv/netlify-plugin"
 
   [plugins.inputs]
     environment = "production"
@@ -65,7 +65,7 @@ Then set `KEYENV_TOKEN` in **Site settings → Environment variables**.
 
 ```toml
 [[plugins]]
-  package = "keyenv-netlify-plugin"
+  package = "@keyenv/netlify-plugin"
 
   [plugins.inputs.context_mapping]
     production = "prod"

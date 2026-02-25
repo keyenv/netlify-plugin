@@ -23,7 +23,7 @@ async function fetchSecrets({ token, projectId, environment, apiUrl }) {
     headers: {
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
-      'User-Agent': '@keyenv/netlify-plugin/1.0.0',
+      'User-Agent': 'keyenv-netlify-plugin/1.0.0',
     },
   });
 

@@ -1,5 +1,5 @@
 {
-  "name": "@keyenv/netlify-plugin",
+  "name": "keyenv-netlify-plugin",
   "version": "1.0.0",
   "type": "module",
   "description": "Netlify Build Plugin to inject KeyEnv secrets during builds",
@@ -20,8 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keyenv/keyenv.git",
-    "directory": "integrations/netlify"
+    "url": "https://github.com/keyenv/netlify-plugin.git"
   },
   "author": "KeyEnv",
   "license": "MIT",

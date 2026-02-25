@@ -1,5 +1,5 @@
 {
-  "name": "keyenv-netlify-plugin",
+  "name": "@keyenv/netlify-plugin",
   "version": "1.0.0",
   "type": "module",
   "description": "Netlify Build Plugin to inject KeyEnv secrets during builds",

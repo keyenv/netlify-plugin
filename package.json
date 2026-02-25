@@ -1,0 +1,31 @@
+{
+  "name": "@keyenv/netlify-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Netlify Build Plugin to inject KeyEnv secrets during builds",
+  "main": "src/index.js",
+  "keywords": [
+    "keyenv",
+    "netlify",
+    "netlify-plugin",
+    "secrets",
+    "environment"
+  ],
+  "files": [
+    "src",
+    "manifest.yml"
+  ],
+  "scripts": {
+    "test": "node --test src/__tests__/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyenv/keyenv.git",
+    "directory": "integrations/netlify"
+  },
+  "author": "KeyEnv",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
